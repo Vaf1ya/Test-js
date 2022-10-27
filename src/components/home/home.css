@@ -1,0 +1,12 @@
+.home__text{
+    text-align: left;
+    margin-top: 24px;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: #000000;
+}
+
+.home__text a{
+    color: #002BC5;
+    text-decoration: underline;
+}

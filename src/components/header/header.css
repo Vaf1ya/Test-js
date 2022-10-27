@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--container-color);
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    padding: 0 39px;
+    color: var(--header-title-color);
+}
+
+.header__logo,
+.header__user-logo {
+    align-items: center;
+}
+
+.header__logo h1,
+.header__user-logo span {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+}
+
+.header__logo h1 {
+    padding-left: 24px;
+}
+
+.header__user-logo span {
+    padding-left: 16px;
+}
+
+@media screen and (max-width: 540px) {
+    .header {
+        padding: 0 12px;
+    }
+    .header__user-logo span {
+        display: none;
+    }
+}
+
